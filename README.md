@@ -1,1 +1,2 @@
-# flexProperty
+# flexProperty 
+stretch property
