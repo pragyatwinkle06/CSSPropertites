@@ -7,3 +7,6 @@ stretch property
 
 > flex item [ child class ]
 shrink & grow property
+
+
+> flex challenges
