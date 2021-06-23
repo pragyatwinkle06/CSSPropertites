@@ -1,0 +1,68 @@
+ /* Flexbox for the 3 Cards  */
+
+ .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+
+.flex-item {
+    
+    width: 30%;
+    margin: 1rem;
+    border: 2px black solid;
+    box-shadow: 5px 5px 5px #aaaaaa;
+
+
+}
+
+
+/* Flexbox for inside of card */
+
+.inner-flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.inner-flex-item {
+    padding: 0rem;
+
+}
+
+.inner-flex-item img{
+
+    max-width: 100%;
+    max-height: 100%;
+border-image: fill;
+      
+}
+
+h1 {
+  text-align: centeer;  
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-size: 2rem;
+    margin: 2rem;
+    font-family: cursive;
+}
+button {
+
+    margin: 2rem;
+    font-size: 150%;
+    font-family: cursive;
+    color: white;
+    background-color: #918f91;
+    padding: 5px 20px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
