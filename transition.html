@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition </title>
+    <style>
+        .trans{
+            height: 200px;
+            width: 200px;
+            background-color: lightsalmon;
+            border: solid 5px  darkorange;
+            transition: width 2s , height 4s ,   backgrsound-color 4s , border  2s , border-radius 3s;
+        }
+        .trans:hover{
+            width: 400px ;
+            height: 400px; 
+            background-color: lightskyblue;
+            border: solid 5px darkslateblue;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <p>Touch it </p>
+    <div class="trans"></div>
+</body>
+</html>
